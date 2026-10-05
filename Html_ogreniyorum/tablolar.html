@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+<body>
+    <!-- <table>: Tablo yapısını başlatan ana etiket. 
+         border="1px": Tabloya dış çerçeve (kenarlık) verir. 
+         cellpadding="10": Hücre içindeki yazılar ile kenarlar arasında boşluk bırakır. -->
+    <table border="1px" cellpadding="10">
+      
+      <!-- <tr>: Tabloda yeni bir satır (row) oluşturur. -->
+      <tr style="background-color: rgb(18, 187, 243);">
+        <!-- <th>: Tablo başlık (table header) hücresidir, yazıları kalın ve ortalı yapar. 
+             colspan="5": Bu başlığın yatayda 5 sütun kaplamasını sağlar. -->
+        <th colspan="5">Pazartesi</th>
+      </tr>  
+
+      <tr style="background-color: rgb(8, 255, 8);">
+        <!-- <td>: Tablo veri (table data) hücresidir. 
+             rowspan="2": Bu hücrenin dikeyde 2 satır boyunca birleşmesini sağlar. -->
+        <td rowspan="2">Matematik</td>
+        
+        <!-- <td>: Standart tablo hücreleridir, normal verileri barındırır. -->
+        <td>Türkçe</td>
+        <td>Sosyal Bilgiler</td>
+        <td>Ingilizce</td>
+      </tr>
+       
+      <tr style="background-color: rgb(238, 238, 110);">
+        <!-- <td>: Tablodaki diğer veri hücreleri -->
+        <td>Matematik</td>
+        <td>Fen Bilgisi</td>
+        <td>Türkçe</td>
+        <td>Sosyal Bilgiler</td>
+        <td>Ingilizce</td>
+      </tr>
+    </table>
+</body>
+</html>
